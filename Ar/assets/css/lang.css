@@ -1,0 +1,64 @@
+* {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.row.gy-4,
+.row.justify-content-around.gy-4,
+.post-content.d-flex.flex-column,
+.our-story,
+div#features-tab-1,
+form.php-email-form.aos-init.aos-animate,
+ul.portfolio-filters.isotope-filters.aos-init.aos-animate,
+.page-title .breadcrumbs ol {
+  direction: rtl;
+  text-align: right;
+}
+
+.meta.d-flex.align-items-center,
+.d-flex.align-items-center span,
+.post-content.d-flex.flex-column {
+  color: black;
+}
+
+.d-flex.align-items-center span {
+  margin-right: 10px;
+}
+
+.testimonial-item {
+  text-align: right;
+  direction: ltr;
+}
+
+i.bi.bi-patch-check.flex-shrink-0 {
+  margin-left: 25px;
+}
+
+.features .tab-pane h3:after {
+  right: 0;
+}
+
+.contact .info-item h3 {
+  text-align: right;
+}
+div .d-flex.align-items-center span {
+  color: white;
+}
+
+.about ul i {
+  margin-left: 0.5rem;
+}
+
+.about .watch-video a {
+  margin-right: 10px;
+}
+
+.alt-services h3:after {
+  right: 0;
+}
+
+.tab-pane.fade.active.show {
+  direction: rtl;
+}
+.d-flex.align-items-center span {
+  color: black !important;
+}

@@ -29,7 +29,12 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/lang.css" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Dongle&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -41,20 +46,22 @@
       <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-center">
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li class="bg ptn"><a href="index.html" class="active">Home</a></li>
-            <li class="bg ptn"><a href="./assets/page/about.html">About</a></li>
-            <li class="bg ptn"><a href="./assets/page/projects.html">Products</a></li>
-            <li class="bg ptn"><a href="./assets/page/advertise.html">Advertisements</a></li>
+            <li class="bg ptn"><a href="index.html" class="active">الرئيسية</a></li>
+            <li class="bg ptn"><a href="./assets/page/about.html">من نحن</a></li>
+            <li class="bg ptn"><a href="./assets/page/projects.html">المنتجات</a></li>
+            <li class="bg ptn"><a href="./assets/page/advertise.html">الإعلانات</a></li>
+
             <a href="/" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" class="main_logo">
             </a>
-            <li class="bg ptn"><a href="./assets/page/event.html">Events</a></li>
-            <li class="bg ptn"><a href="./assets/page/blog.html">Blog</a></li>
-            <li class="bg ptn"><a href="./assets/page/contact.html">Contact</a></li>
+            <li class="bg ptn"><a href="./assets/page/event.html">الفعاليات</a></li>
+            <li class="bg ptn"><a href="./assets/page/blog.html">المدونة</a></li>
+            <li class="bg ptn"><a href="./assets/page/contact.html">تواصل معنا</a></li>
+
 
 
             <li class="bg ptn">
-              <a href="./Ar/index.html">
+              <a href="contact.html">
                 <i class="bi bi-globe"></i> Ar
               </a>
             </li>
@@ -79,7 +86,6 @@
 
   <main class="main mt-25">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
       <canvas id="particleCanvas"></canvas>
       <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
@@ -113,97 +119,85 @@
         </a>
 
       </div>
-
     </section>
-    <!-- /Hero Section -->
 
-    <!-- About Section -->
     <section id="about" class="about section">
-
       <div class="container">
-
         <div class="row position-relative">
-
-          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpg">
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg">
           </div>
-
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
             <div class="our-story">
-              <h4>Est 1988</h4>
-              <h3>Our Story</h3>
-              <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem.
-                Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur
-                laudantium temporibus dicta minus dolor.</p>
+              <h4>تأسس عام 1988</h4>
+              <h3>قصتنا</h3>
+              <p>ابتكار وتفاني في تقديم الأفضل منذ البداية. نحن نتميز بالجودة والاهتمام بأدق التفاصيل لنقدم منتجات ترضي
+                جميع الأذواق.</p>
               <ul>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>نحرص على تقديم منتجات طبيعية وصحية</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>نعتمد على أعلى معايير الجودة والتعبئة</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>ثقة عملائنا هي سر نجاحنا المستمر</span></li>
               </ul>
-              <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in
-                quo eveniet. Molestias in maxime doloremque.</p>
-
+              <p>نحن نؤمن بأن التميز لا يأتي صدفة، بل هو نتيجة اجتهاد وشغف. فريقنا يعمل بجهد لتقديم الأفضل دائمًا.</p>
               <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=CF9yzVaieVY" class="glightbox stretched-link">Watch Video</a>
+                <a href="https://www.youtube.com/watch?v=CF9yzVaieVY" class="glightbox stretched-link">مشاهدة
+                  الفيديو</a>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </section>
-    <!-- /About Section -->
 
-    <!-- Projects Section -->
     <section id="mu-counter" class="projects section">
       <div class="mu-counter-overlay">
-
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Some of our Products</h2>
-          <p>This products displayed randomly</p>
-        </div><!-- End Section Title -->
-
+          <h2>بعض منتجاتنا</h2>
+          <p>يتم عرض هذه المنتجات بشكل عشوائي</p>
+        </div>
         <div class="container">
-
           <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
             <div class="row gy-4 isotope-container">
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="portfolio-content h-100">
                   <img src="assets/img/projects/1.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <p>براميلي150.</p>
+                    <p>براميلي 150</p>
                     <a href="assets/img/projects/1.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-content h-100">
                   <img src="assets/img/projects/2.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <p>بسطرمة4.</p>
+                    <p>بسطرمة 4</p>
                     <a href="assets/img/projects/2.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="300">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="portfolio-content h-100">
                   <img src="assets/img/projects/3.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <p>ثلاجة طبيعي.</p>
+                    <p>ثلاجة طبيعي</p>
                     <a href="assets/img/projects/3.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="400">
                 <div class="portfolio-content h-100">
@@ -211,51 +205,51 @@
                   <div class="portfolio-info">
                     <p>ثلاجة</p>
                     <a href="assets/img/projects/4.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="500">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="500">
                 <div class="portfolio-content h-100">
                   <img src="assets/img/projects/5.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <p>كريمي ساده.</p>
+                    <p>كريمي سادة</p>
                     <a href="assets/img/projects/5.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="600">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
                 <div class="portfolio-content h-100">
                   <img src="assets/img/projects/6.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <p>كريمي رومي.</p>
+                    <p>كريمي رومي</p>
                     <a href="assets/img/projects/6.webp" data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
                   </div>
                 </div>
-              </div><!-- End Portfolio Item -->
+              </div>
 
-            </div><!-- End Portfolio Container -->
-
+            </div>
           </div>
-
         </div>
       </div>
-
     </section>
-    <!-- /Projects Section -->
 
-    <!-- Stats Counter Section -->
     <section id="stats-counter" class="stats-counter section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Stats</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <h2>الإحصائيات</h2>
+        <p>نحن نفتخر بفريقنا ومنتجاتنا وشبكة التوزيع الخاصة بنا</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -267,10 +261,10 @@
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="1"
                   class="purecounter"></span>
-                <p> Workers </p>
+                <p>عدد الموظفين</p>
               </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="stats-item d-flex align-items-center w-100 h-100">
@@ -278,10 +272,10 @@
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1"
                   class="purecounter"></span>
-                <p>Products</p>
+                <p>عدد المنتجات</p>
               </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="stats-item d-flex align-items-center w-100 h-100">
@@ -289,279 +283,267 @@
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1"
                   class="purecounter"></span>
-                <p>Distribution Officers</p>
+                <p>موظفي التوزيع</p>
               </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
         </div>
 
       </div>
+    </section>
 
-    </section><!-- /Stats Counter Section -->
 
-
-    <!-- Testimonials Section -->
     <section id="mu-counter" class="testimonials section">
       <div class="mu-counter-overlay">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+          <h2>آراء العملاء</h2>
+          <p>نحن نعتز بثقة عملائنا ونقدم لكم بعض آرائهم وتجاربهم</p>
+        </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-
           <div class="swiper init-swiper">
             <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 2,
-                    "spaceBetween": 20
-                  }
-                }
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            },
+            "breakpoints": {
+              "320": {
+                "slidesPerView": 1,
+                "spaceBetween": 40
+              },
+              "1200": {
+                "slidesPerView": 2,
+                "spaceBetween": 20
               }
-            </script>
+            }
+          }
+        </script>
             <div class="swiper-wrapper">
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
+                    <h3>سول غودمان</h3>
                     <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span style="color:black">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
-                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                        risus at semper.</span>
+                      <span style="color:black">خدمة رائعة ومنتجات ممتازة، تجربة ممتازة بكل المقاييس.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div>
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                    <h3>Sara Wilsson</h3>
+                    <h3>سارة ويلسون</h3>
                     <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span style="color:black">Export tempor illum tamen malis malis eram quae irure esse labore quem
-                        cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                        legam anim culpa.</span>
+                      <span style="color:black">كل شيء كان منظم بدقة، وأنا أوصي بهم بشدة.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div>
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
+                    <h3>جينا كارلس</h3>
                     <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span style="color:black">Enim nisi quem export duis labore cillum quae magna enim sint quorum
-                        nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                        minim.</span>
+                      <span style="color:black">خدمة العملاء ممتازة والأسعار مناسبة، شكراً لكم.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div>
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                    <h3>Matt Brandon</h3>
+                    <h3>مات براندون</h3>
                     <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span style="color:black">Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export
-                        minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                        dolore labore illum veniam.</span>
+                      <span style="color:black">أتعامل معهم منذ سنوات، وثقتي بهم تزداد كل مرة.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div>
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                    <h3>John Larson</h3>
+                    <h3>جون لارسن</h3>
                     <div class="stars">
                       <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span style="color:black">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam
-                        tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse
-                        veniam culpa fore nisi cillum quid.</span>
+                      <span style="color:black">مصداقية عالية ومنتجات متميزة وسرعة في التوصيل.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div>
 
             </div>
             <div class="swiper-pagination"></div>
           </div>
-
         </div>
       </div>
+    </section>
 
-    </section><!-- /Testimonials Section -->
-
-
-    <!-- Projects Section -->
     <section id="projects" class="projects section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our certificates</h2>
-        <p>This products displayed randomly</p>
-      </div><!-- End Section Title -->
+        <h2>شهاداتنا</h2>
+        <p>يتم عرض الشهادات بشكل عشوائي</p>
+      </div>
 
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <div class="row gy-4 isotope-container">
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="100">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="200">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="300">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="400">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="500">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="500">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item " data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
               <div class="portfolio-content h-100">
                 <img src="assets/img/certificate.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <a href="assets/img/certificate.png" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-          </div><!-- End Portfolio Container -->
-
+          </div>
         </div>
-
       </div>
-
     </section>
-    <!-- /Projects Section -->
 
-
-    <!-- Recent Blog Posts Section -->
     <section id="mu-counter" class="recent-blog-posts section">
       <div class="mu-counter-overlay">
         <div class="container section-title" data-aos="fade-up">
-          <h2>Recent Blog Posts</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <h2>آخر المقالات</h2>
+          <p>نشارككم أحدث الأخبار والمقالات المتعلقة بمجالنا واهتمامات عملائنا</p>
         </div>
 
         <div class="container">
@@ -570,12 +552,12 @@
               <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
                 <div class="post-img position-relative overflow-hidden">
                   <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                  <span class="post-date">December 12</span>
+                  <span class="post-date">12 ديسمبر</span>
                 </div>
                 <div class="post-content d-flex flex-column">
-                  <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                  <h3 class="post-title">رحلة نحو التميز: خطواتنا الأولى</h3>
                   <hr>
-                  <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  <a href="blog-details.html" class="readmore stretched-link"><span>اقرأ المزيد</span><i
                       class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
@@ -585,12 +567,12 @@
               <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
                 <div class="post-img position-relative overflow-hidden">
                   <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                  <span class="post-date">July 17</span>
+                  <span class="post-date">17 يوليو</span>
                 </div>
                 <div class="post-content d-flex flex-column">
-                  <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+                  <h3 class="post-title">كيف نواجه التحديات ونبني النجاح</h3>
                   <hr>
-                  <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  <a href="blog-details.html" class="readmore stretched-link"><span>اقرأ المزيد</span><i
                       class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
@@ -600,22 +582,21 @@
               <div class="post-item position-relative h-100">
                 <div class="post-img position-relative overflow-hidden">
                   <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-                  <span class="post-date">September 05</span>
+                  <span class="post-date">05 سبتمبر</span>
                 </div>
                 <div class="post-content d-flex flex-column">
-                  <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+                  <h3 class="post-title">قصص ملهمة من واقعنا المهني</h3>
                   <hr>
-                  <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  <a href="blog-details.html" class="readmore stretched-link"><span>اقرأ المزيد</span><i
                       class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </section>
-    <!-- End Recent Blog Posts Section -->
-
 
   </main>
 
