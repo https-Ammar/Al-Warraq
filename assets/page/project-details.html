@@ -4,158 +4,135 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>الوراق لمنتجات الألبان</title>
+  <title>Project Details - UpConstruction Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-
-  <link href="../img/logo.png" rel="icon">
-
+  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="../vendor/aos/aos.css" rel="stylesheet">
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <link href="../css/main.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body class="project-details-page">
+
   <div id="header_"></div>
 
-  <main class="main mt-25">
-
-    <div class="page-title" style="background-image: url(../img/footer.webp);">
+  <main class="main">
+    <div class="page-title dark-background" style="background-image: url(../img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>Products Details</h1>
+        <h1>Project Details</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Products Details</li>
+            <li class="current">Project Details</li>
           </ol>
         </nav>
       </div>
     </div>
 
-    <section id="projects" class="projects section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Products</h2>
-        <p>All products in this department</p>
-      </div>
+    <section id="project-details" class="project-details section">
+      <div class="container" data-aos="fade-up">
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="../img/projects/remodeling-1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/projects/remodeling-2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/projects/remodeling-3.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
 
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <div class="row gy-4 isotope-container">
+        <div class="row justify-content-between gy-4 mt-4">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>This is an example of portfolio details</h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
+                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
+              </p>
+              <p>
+                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et.
+                Praesentium error dolores rerum minus sequi quia veritatis eum.
+              </p>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="100">
-              <div class="portfolio-content h-100">
-                <img src="../img/event1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                    malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="../img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
                 </div>
               </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="200">
-              <div class="portfolio-content h-100">
-                <img src="../img/event2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
+              <p>
+                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam
+                animi. Quibusdam non qui ea vitae suscipit vitae sunt.
+              </p>
+              <p>
+                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero.
+                Explicabo et quod necessitatibus similique quis dolor eum.
+              </p>
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="300">
-              <div class="portfolio-content h-100">
-                <img src="../img/event1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Web design</li>
+                <li><strong>Client</strong> ASU Company</li>
+                <li><strong>Project date</strong> 01 March, 2020</li>
+                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
+                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+              </ul>
             </div>
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="400">
-              <div class="portfolio-content h-100">
-                <img src="../img/event2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="500">
-              <div class="portfolio-content h-100">
-                <img src="../img/event1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
-              <div class="portfolio-content h-100">
-                <img src="../img/event2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
-              <div class="portfolio-content h-100">
-                <img src="../img/event1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item" data-aos="fade-up" data-aos-delay="600">
-              <div class="portfolio-content h-100">
-                <img src="../img/event2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="../img/event2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
     </section>
-
-    <section id="blog-pagination" class="blog-pagination section">
-      <div class="container">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#" class="active">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li>...</li>
-            <li><a href="#">10</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
   </main>
+
   <div id="footer_"></div>
 
   <script src="../js/header.js"></script>

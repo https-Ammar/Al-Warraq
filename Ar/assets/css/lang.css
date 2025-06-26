@@ -62,3 +62,25 @@ div .d-flex.align-items-center span {
 .d-flex.align-items-center span {
   color: black !important;
 }
+
+.page-title h1,
+.portfolio-info h3,
+.portfolio-description h2 {
+  text-align: right;
+}
+
+.portfolio-info ul {
+  padding-right: 0;
+  list-style: none;
+}
+
+.portfolio-info li {
+  margin-bottom: 10px;
+}
+
+.testimonial-item {
+  text-align: right;
+}
+.project-details .portfolio-info h3:after {
+  right: 0;
+}
