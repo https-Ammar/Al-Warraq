@@ -1,4 +1,4 @@
-* {
+*:not(i):not(svg):not([class*="fa"]):not([class*="bi"]) {
   font-family: "Cairo", sans-serif !important;
 }
 
@@ -61,12 +61,6 @@ div .d-flex.align-items-center span {
 }
 .d-flex.align-items-center span {
   color: black !important;
-}
-
-.page-title h1,
-.portfolio-info h3,
-.portfolio-description h2 {
-  text-align: right;
 }
 
 .portfolio-info ul {
