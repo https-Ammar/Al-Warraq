@@ -2,20 +2,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>products</title>
+    <title>الوراق لمنتجات الألبان</title>
+    <meta name="description" content="منتجات ألبان عالية الجودة من الوراق">
+    <meta name="keywords" content="ألبان، الوراق، جبن، حليب، زبادي">
+    <link rel="icon" href="../img/logo.png">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../vendor/aos/aos.css" rel="stylesheet">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+
+        .products {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            overflow: hidden;
+            padding: 0 !important;
+        }
+
+        .half {
+            flex: 1;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .half a button {
+            padding: 10px 45px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #007bff;
+            border: 3px solid red;
+            outline: 5px solid green;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .half a button:hover {
+            background-color: #e6e6e6;
+        }
+
+        .wave-divider {
+            width: 60px;
+            background-color: #f8f9fa;
+            position: relative;
+        }
+
+        .wave-divider::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #f8f9fa 25%, transparent 26%) repeat-y;
+            background-size: 60px 120px;
+        }
+
+        @media (max-width: 991px) {
+            .products {
+                flex-direction: column;
+
+            }
+
+            .wave-divider {
+                height: 50px;
+                width: 100%;
+                transform: rotate(180deg);
+            }
+
+            .wave-divider::before {
+                background-size: 120px 50px;
+            }
+
+            .half {
+                background-repeat: no-repeat;
+
+            }
+        }
+
+        section.products {
+            position: relative;
+        }
+
+        svg {
+            transform: rotate(90deg);
+            position: absolute;
+            left: 10vh;
+            height: min-content;
+            top: 0;
+        }
+
+        .ziz p {
+            color: white !important;
+            background: darkgreen;
+            font-size: x-large;
+            height: -webkit-fill-available;
+            /* width: 100%; */
+
+        }
+    </style>
 </head>
 
-<body>
+<body class="index-page">
+    <div id="header_"></div>
+
+    <main class="main mt-25">
+        <section class="products">
+            <div class="half" style="background-image: url('../img/bg.webp');">
+                <a href="#"><button>منتج ١</button></a>
+            </div>
 
 
+            <div class="ziz">
+                <p> ⦚</p>
 
+            </div>
 
+            <div class="half" style="background-image: url('../img/bg.webp');">
+                <a href="#"><button>منتج ٢</button></a>
+            </div>
+        </section>
+    </main>
 
+    <div id="footer_"></div>
 
-
-
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/aos/aos.js"></script>
+    <script src="../vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
